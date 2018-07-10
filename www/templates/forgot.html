@@ -1,0 +1,11 @@
+<img src="../img/logo1.jpg" class="signupImage">
+    <h3>Recover Password</h3>
+    <input type="text" id="reg_name" class="loginInputs" placeholder="Registered Firstname">
+    <input type="number" id="reg_contact" class="loginInputs" placeholder="Registered Contact">
+    <input type="button" value="Send Code" class="loginBtn" onclick="sendSecretCode()">
+    <p id="error">Error !! </p>
+    <input type="text" id="sec_code" class="loginInputs" placeholder="Secret Code" disabled="true">
+    <p id="error">Error !! </p>
+    <input type="button" value="Check Code" class="loginBtn" onclick="newPass()">
+    <input type="text" id="new_pass" class="loginInputs" placeholder="New Password" disabled="true">
+    <input type="button" value="Submit Pass" class="loginBtn" onclick="submitPass()">

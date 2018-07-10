@@ -1,0 +1,59 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+ 
+
+    <!-- CSS (load bootstrap) -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- JS (load angular, ui-router, and our custom js file) -->
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/checkout.js"></script>
+    <script src="js/signup.js"></script>
+     <script src="js/settings.js"></script>
+     <script src="js/confirmOrder.js"></script>
+     <script src="js/cart.js"></script>
+     <script src="js/flyer.js"></script>
+     <script src="js/foodcard.js"></script>
+     <script src="js/recover.js"></script>
+     <script src="js/push.js"></script>
+
+
+     
+</head>
+
+<!-- apply our angular app to our site -->
+<body ng-app="routerApp">
+<!-- NAVIGATION -->
+
+
+<!-- MAIN CONTENT -->
+
+
+    <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+    <div ui-view class="view"></div>
+
+<div class="loading">
+	<img src="http://gifimage.net/wp-content/uploads/2018/04/loading-gif-transparent-background-1.gif">
+</div>
+
+</body>
+</html>

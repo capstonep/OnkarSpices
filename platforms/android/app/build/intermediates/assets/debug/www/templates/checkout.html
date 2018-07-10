@@ -1,0 +1,73 @@
+<div class="topnav">
+	<i class="fa fa-arrow-circle-o-left" ng-click="back()"></i>
+  <h4>Checkout</h4>
+</div>
+
+<div class="input-group mb-3 orderName" >
+  <div class="input-group-prepend">
+    <span class="input-group-text">Order</span>
+  </div>
+  <input type="text" class="form-control" id="orderName" placeholder="Order Name">
+</div>
+
+<div id="orderedItems">
+	<div class="secondDiv"></div>
+	<div class="prod">
+		<span>Order Amount</span>
+		<span class="orderAmount"></span>
+		<br>
+		<br>
+		<span>Delivery Charges</span>
+		<span class="deliveryAmount">2.99</span>
+		<br>
+		<br>
+		<span>HST (13%)</span>
+		<span class="hstAmount"></span>
+		<br>
+		<br>
+		<span>Total</span>
+		<span class="finalAmount"></span>
+	</div>
+
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Name</span>
+  </div>
+  <input type="text" class="form-control" id="firstname">
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Contact</span>
+  </div>
+  <input type="tel" class="form-control" id="contact">
+</div>
+<div class="input-group mb-3">
+	  <div class="input-group-prepend">
+	    <span class="input-group-text">Street</span>
+	  </div>
+	  <input type="tel" class="form-control" id="streetName">
+	</div>
+	<div class="input-group mb-3">
+	  <div class="input-group-prepend">
+	    <span class="input-group-text">House Number</span>
+	  </div>
+	  <input type="tel" class="form-control" id="housenumber">
+	</div>
+	<div class="input-group mb-3">
+	  <div class="input-group-prepend">
+	    <span class="input-group-text">City</span>
+	  </div>
+	  <input type="tel" class="form-control" id="city">
+	</div>
+	<div class="input-group mb-3">
+	  <div class="input-group-prepend">
+	    <span class="input-group-text">Zip Code</span>
+	  </div>
+	  <input type="tel" class="form-control" id="zip">
+	</div>
+<div id="totalAmount" ng-click="confirmOrder()">
+	<span>Confirm Order</span>
+	<span class="orderAmount">0.00</span>
+</div>
